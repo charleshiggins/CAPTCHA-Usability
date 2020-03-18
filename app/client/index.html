@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script type="application/javascript" src="index.js"></script>
+    <script type="application/javascript" src="challengeData/textChallenges.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        td,
+        img {
+            text-align: center
+        }
+
+        #instructions {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 2px solid black;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            background-color: #f8f8ff;
+            text-align: center;
+        }
+
+        #content {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #theType {
+            color: blue
+        }
+
+        .selected {
+            background-color: #28a745 
+        }
+
+        .hovered {
+            background-color: lightblue
+        }
+        img{
+            padding: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="status"> <label for="participantID">Participant ID</label>
+        <input type="text" class="form-control" id="participantID" placeholder="id">
+        <small class="form-text text-muted">For use by researcher</small>
+        <button type="submit" class="btn btn-outline-primary" id="startButton">Begin</button>
+    </div>
+    <div id="captchaArea"></div>
+</body>
+
+</html>
