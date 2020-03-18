@@ -6,6 +6,7 @@ var state = 'setup'
 var timers = []
 var imageTimers = []
 var imageIndexes = [1, 2, 3, 4, 5, 6] //might not be needed if i just change the filenames
+var textChallenges = ['2QjXK', '9FkS7', 'C0nGZ', 'fzODD', 'LdKhL', 'U1M6C', 'uYCVd', 'W8xVh', 'wxcio', 'zDLMF']
 
 document.addEventListener("DOMContentLoaded", function (event) {
     init()
