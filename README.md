@@ -1,9 +1,9 @@
 # CAPTCHA-Usability
 # Configuration
-Run the following command to start the server running on port 8080: 
-`npm start --prefix app` 
+Navigate to the /app/ directory and run the following command to start the server running on port 8080: 
+`npm start` 
 
-When you load it in your browser, you can input a participant id, and let the participant proceed from there. When the session is complete, a JSON file containing data about the session will be generated in app/outputFiles/<participantid>.
+When you load it in your browser, you can input a participant id, and let the participant proceed from there. When the session is complete, a JSON file containing data about the session will be generated in `app/outputFiles/<participantid>`.
 
 # Information about the research study this code is being used for
 Study Title: Comparing Usability of Text-Based and Image-Based CAPTCHAs
